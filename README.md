@@ -86,13 +86,13 @@ go build -o banana ./cmd/banana
 **Migration:**
 Move from JSON to Firestore (One-time).
 ```bash
-go run cmd/migrate_presets/main.go
+./banana migrate
 ```
 
 **Admin Console:**
 View stats and manage locations.
 ```bash
-go run cmd/admin/main.go stats
+./banana admin stats
 ```
 
 
